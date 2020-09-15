@@ -1,7 +1,10 @@
 module.exports = {
-  devServer: {
-    port: 80,
-    open: true
-  },
-  runtimeCompiler: true
+  publicPath: './',
+  outputDir: 'dist',
+  assetsDir: 'static'
+  // devServer: {
+  //   port: 80,
+  //   open: true
+  // },
+  // runtimeCompiler: true
 }
